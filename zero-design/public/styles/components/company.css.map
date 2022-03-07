@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/company.scss"],"names":[],"mappings":"AACI,oBACI,YAAA","file":"company.css","sourcesContent":[".company {\r\n    &__container {\r\n        padding-top: 100px;\r\n    }\r\n\r\n    &__content {\r\n\r\n    }\r\n}"]}

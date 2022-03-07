@@ -1,0 +1,45 @@
+.design {
+    &__container {
+        padding-top: 220px;
+        padding-bottom: 65px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 57px;
+    }
+
+    &__title {
+        font-size: 96px;
+        line-height: 86px;
+        margin-bottom: 43px;
+    }
+
+    &__descr {
+        font-size: 22px;
+        line-height: 27px;
+        color: $clr-black;
+        margin-bottom: 32px;
+    }
+
+    &__group {
+        display: flex;
+        &:not(:last-child) {
+            margin-bottom: 9px;
+        }
+    }
+
+    &__tag {
+        padding: 7px 20px;
+        background-color: $clr-black;
+        color: $clr-white;
+        text-transform: uppercase;
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+    
+    &__img {
+        width: 660px;
+        height: 440px;
+        padding-top: 26px;
+    }
+}

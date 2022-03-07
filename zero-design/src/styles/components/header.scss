@@ -1,0 +1,30 @@
+.header {
+    &__container {
+        padding-left: 19px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        margin-right: 30px;
+    }
+
+    &__btn {
+        padding: 14px 26px;
+        background-color: $clr-black;
+        color: $clr-white;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 20px;
+        outline: none;
+    }
+}
